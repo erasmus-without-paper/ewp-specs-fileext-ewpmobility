@@ -36,7 +36,7 @@
                     <xs:annotation>
                         <xs:documentation>
                             The file consists of a list of Outgoing Mobility objects (these objects are
-                            described in a separate XML Schama).
+                            described in a separate XML Schema).
                         </xs:documentation>
                     </xs:annotation>
                 </xs:element>

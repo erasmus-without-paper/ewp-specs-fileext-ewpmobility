@@ -34,7 +34,7 @@ the structure of these objects.
    Outgoing Mobility objects.
 
  * See [schema.xsd](schema.xsd) for the complete XML Schema of a valid
-   `.ewpmobility` file. **Additional information can be found in XML Schama
+   `.ewpmobility` file. **Additional information can be found in XML Schema
    annotations.**
 
 You SHOULD validate your file against the [schema](schema.xsd) before you send
