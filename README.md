@@ -38,8 +38,8 @@ the structure of these objects.
    annotations.**
 
 You SHOULD validate your file against the [schema](schema.xsd) before you send
-it to your partner. You will also probably want to compress it and append a
-proper file extension, e.g. `.ewpmobility.gz`.
+it to your partner. We also recommend using the `.ewpmobility` file extension
+(`.ewpmobility.gz` if compressed, etc.).
 
 
 [develhub]: http://developers.erasmuswithoutpaper.eu/
