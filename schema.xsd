@@ -2,7 +2,7 @@
 <xs:schema
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xmlns:mobility="https://github.com/erasmus-without-paper/ewp-specs-api-mobilities/tree/master"
+    xmlns:mobility="https://github.com/erasmus-without-paper/ewp-specs-api-mobilities/blob/master/endpoints/get-response.xsd"
     elementFormDefault="qualified"
 
     targetNamespace="https://github.com/erasmus-without-paper/ewp-specs-fileext-ewpmobility/tree/master"
@@ -11,8 +11,8 @@
     <!-- WRTODO: Replace all occurrences of 'master' (in all projects) with 'stable-v1' upon release. -->
 
     <xs:import
-        schemaLocation="https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-mobilities/master/response.xsd"
-        namespace="https://github.com/erasmus-without-paper/ewp-specs-api-mobilities/tree/master"
+        schemaLocation="../ewp-specs-api-mobilities/endpoints/get-response.xsd"
+        namespace="https://github.com/erasmus-without-paper/ewp-specs-api-mobilities/blob/master/endpoints/get-response.xsd"
     />
 
     <xs:annotation>
@@ -32,14 +32,14 @@
         </xs:annotation>
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="mobility" minOccurs="0" maxOccurs="unbounded" type="mobility:OutgoingMobilityObject">
+                <xs:group ref="mobility:SequenceOfMobilities">
                     <xs:annotation>
                         <xs:documentation>
                             The file consists of a list of Outgoing Mobility objects (these objects are
                             described in a separate XML Schema).
                         </xs:documentation>
                     </xs:annotation>
-                </xs:element>
+                </xs:group>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
