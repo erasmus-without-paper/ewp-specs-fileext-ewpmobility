@@ -5,6 +5,16 @@ This document describes all the changes made to the *`.ewpmobility` Exchange
 File* document, starting from its first beta draft version.
 
 
+0.2.0
+-----
+
+* Changed XML namespaces (as part of
+  [this issue](https://github.com/erasmus-without-paper/ewp-specs-api-iias/issues/22)).
+  Since this version, this format is in the `stable-v1` XML namespace.
+
+* Updated example (due to changes in mobility namespace).
+
+
 0.1.3
 -----
 
