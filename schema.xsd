@@ -9,6 +9,7 @@
     xmlns="https://github.com/erasmus-without-paper/ewp-specs-fileext-ewpmobility/tree/stable-v1"
 >
     <!-- WRTODO: Do not release until dependants are released: Outgoing Mobilities API -->
+    <!-- WRTODO: Once released, fix all schemaLocations pointing to its master branch. -->
 
     <xs:import
         schemaLocation="../ewp-specs-api-mobilities/endpoints/get-response.xsd"
