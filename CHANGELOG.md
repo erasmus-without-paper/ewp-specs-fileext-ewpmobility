@@ -5,6 +5,13 @@ This document describes all the changes made to the *`.ewpmobility` Exchange
 File* document, starting from its first beta draft version.
 
 
+0.4.0
+-----
+
+* Allow to attach the (newly introduced) Incoming Mobility objects inside the
+  file.
+
+
 0.3.0
 -----
 
