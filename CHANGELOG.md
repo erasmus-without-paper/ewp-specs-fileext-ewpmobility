@@ -4,6 +4,11 @@ Release notes
 This document describes all the changes made to the *`.ewpmobility` Exchange
 File* document, starting from its first beta draft version.
 
+0.4.3
+-----
+
+* Updated example.
+
 
 0.4.2
 -----
