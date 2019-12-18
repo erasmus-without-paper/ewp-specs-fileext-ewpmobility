@@ -31,9 +31,5 @@
         <planned-arrival-date>2010-02-01</planned-arrival-date>
         <planned-departure-date>2010-06-20</planned-departure-date>
         <eqf-level-studied-at-departure>7</eqf-level-studied-at-departure>
-        <components-studied>
-            <latest-draft-changes></latest-draft-changes>
-            <latest-draft-snapshot></latest-draft-snapshot>
-        </components-studied>
     </student-mobility-for-studies>
 </root:ewp-mobility-file>
