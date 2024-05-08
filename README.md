@@ -19,7 +19,7 @@ Exporting
 ---------
 
 `.ewpmobility` files are strictly compatible with Outgoing Mobility objects
-used in EWP. Before you start exporting your data you will be required to study
+used in EWP. Before you start exporting your data, you will be required to study
 the structure of these objects.
 
  * Start be having a look at the [example.xml](example.xml) file.
