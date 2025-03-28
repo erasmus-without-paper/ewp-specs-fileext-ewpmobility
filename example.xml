@@ -5,7 +5,7 @@
     xsi:schemaLocation="
         https://github.com/erasmus-without-paper/ewp-specs-fileext-ewpmobility/tree/stable-v1
         schema.xsd">
-    <student-mobility>
+    <student-mobility proposal-id="AE61266750D019063512516C7EE01968012C81F25A89">
         <omobility-id>c442c289-5541-4cae-9edb-8ad83e133613</omobility-id>
         <sending-hei>
             <hei-id>uio.no</hei-id>
@@ -29,7 +29,7 @@
             <gender>1</gender>
             <email>ivan@example.com</email>
         </student>
-        <status>live</status>
+        <status>pending</status>
         <activity-type>student-studies</activity-type>
         <activity-attributes>long-term</activity-attributes>
         <agreement-isced-f-code>1234</agreement-isced-f-code>
