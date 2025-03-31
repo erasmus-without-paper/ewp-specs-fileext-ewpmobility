@@ -19,7 +19,7 @@ Exporting
 ---------
 
 `.ewpmobility` files are strictly compatible with Outgoing Mobility objects
-used in EWP. Before you start exporting your data you will be required to study
+used in EWP. Before you start exporting your data, you will be required to study
 the structure of these objects.
 
  * Start be having a look at the [example.xml](example.xml) file.
@@ -28,7 +28,7 @@ the structure of these objects.
    Mobility workflow.
 
  * Analyze the [structure of the Outgoing Mobility
-   object](https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/response.xsd).
+   object](https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v3/response.xsd).
    You will need to understand its structure well and make sure your data is
    compatible with it. The `.ewpmobility` file is basically a wrapper for the
    Outgoing Mobility objects.
